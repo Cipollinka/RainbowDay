@@ -38,7 +38,7 @@
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>${PRODUCT_NAME} accesses your Photo Library to allow photo selection only.</string>
 	<key>NSUserTrackingUsageDescription</key>
-    <string>${PRODUCT_NAME} uses tracking to provide personalized ads tailored to your interests.</string>
+	<string>${PRODUCT_NAME} uses tracking to provide personalized ads tailored to your interests.</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Fredoka-Bold.ttf</string>
@@ -51,10 +51,6 @@
 		<string>Montserrat-Medium.ttf</string>
 		<string>Montserrat-Regular.ttf</string>
 		<string>Montserrat-SemiBold.ttf</string>
-	</array>
-	<key>UIBackgroundModes</key>
-	<array>
-		<string>remote-notification</string>
 	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
