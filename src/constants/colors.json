@@ -1,0 +1,86 @@
+[
+  {
+    "color": "#C07FFC",
+    "meaning": "Inner Strength and Spirituality",
+    "description": "Purple is a color of wisdom, intuition, and spirituality. Today will help you understand yourself more deeply and connect with your inner strength.",
+    "tasks": [
+      "Write about your dreams and goals in your journal.",
+      "Engage in a creative activity—poetry or something artistic.",
+      "Practice yoga or meditation for deep relaxation.",
+      "Take a few minutes to reflect on what brings you joy.",
+      "Find a moment of quiet and listen to your thoughts."
+    ]
+  },
+  {
+    "color": "#FE5A60",
+    "meaning": "Energy and Determination",
+    "description": "Red symbolizes strength, passion, and confidence. It’s a color of action and decisiveness. Feel this surge of energy and use it to reach new heights!",
+    "tasks": [
+      "Wear something red today—it will boost your confidence.",
+      "Write down your goals for the upcoming week.",
+      "Catch up with a friend you haven’t seen in a while and soak up the positivity.",
+      "Do some physical activity or take a brisk walk to lift your energy.",
+      "Take a bold step today—whether at work or in your personal life."
+    ]
+  },
+  {
+    "color": "#5CE2FE",
+    "meaning": "Freshness and New Beginnings",
+    "description": "Light blue symbolizes clarity, freshness, and a new perspective. It’s a perfect color to refresh your mind and start something new.",
+    "tasks": [
+      "Try something new today—whether it's a hobby or a small change in your routine.",
+      "Clean or reorganize a part of your space to create a fresh start.",
+      "Take a few moments to look up at the sky and breathe deeply.",
+      "Write down one positive change you’d like to make this month.",
+      "Drink a glass of water and imagine it refreshing your mind and body."
+    ]
+  },
+  {
+    "color": "#6D86F9",
+    "meaning": "Calmness and Focus",
+    "description": "Blue reminds us of the sky and sea, bringing a sense of calm and stability. Today is for inner focus and peaceful relaxation.",
+    "tasks": [
+      "Listen to sounds of the ocean or rain to unwind.",
+      "Write about something that’s been bothering you, then let it go.",
+      "Meditate for 10 minutes.",
+      "Organize your workspace or relaxation area.",
+      "Spend some quality time with yourself doing something you enjoy."
+    ]
+  },
+  {
+    "color": "#B1E86E",
+    "meaning": "Calmness and Harmony",
+    "description": "Green soothes and symbolizes harmony and renewal. It’s the color of nature and balance. Spend this day in tranquility and equilibrium.",
+    "tasks": [
+      "Take a walk in a park or forest and feel a connection with nature.",
+      "Add greens to your meal, like a salad or some leafy vegetables.",
+      "Practice deep breathing for 5 minutes.",
+      "Read a few pages of your favorite book for some calm time.",
+      "Take a break and enjoy a cup of green tea."
+    ]
+  },
+  {
+    "color": "#FABF43",
+    "meaning": "Creativity and Optimism",
+    "description": "Orange is the color of joy and creativity. It sparks creativity and brings an optimistic outlook. Look at the world with a smile and find something new in it!",
+    "tasks": [
+      "Draw something bright or create a small piece of art.",
+      "Treat yourself to an orange fruit—like an orange or carrot juice.",
+      "Photograph something orange that inspires you.",
+      "Explore something new in your city or visit an unfamiliar place.",
+      "Set a goal to do something creative today."
+    ]
+  },
+  {
+    "color": "#FFF079",
+    "meaning": "Joy and Positivity",
+    "description": "Yellow is associated with joy, sunshine, and warmth. It’s a color that lifts your spirits and fills your day with positivity. Radiate light and let this mood brighten your day!",
+    "tasks": [
+      "Wear something yellow or add a yellow accessory to your outfit.",
+      "Give someone a smile or a compliment.",
+      "Spend 10 minutes outdoors soaking up the sunlight.",
+      "Make a list of things you’re grateful for today.",
+      "Listen to some cheerful music that makes you happy."
+    ]
+  }
+]
