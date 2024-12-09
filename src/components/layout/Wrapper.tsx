@@ -1,5 +1,5 @@
 import React from 'react';
-import {SafeAreaView, StyleSheet, View} from 'react-native';
+import {Image, SafeAreaView, StyleSheet, View} from 'react-native';
 
 interface Props {
   children: React.ReactNode;
@@ -20,6 +20,7 @@ export default function BackgroundWrapper({children, color}: Props) {
         backgroundColor: calcColor,
         position: 'relative',
       }}>
+        <Image style={{position:'absolute', width:'100%', height: '100%'}} source={require('../../assets/images/bg.png')}/>
       {children}
 
       <View
