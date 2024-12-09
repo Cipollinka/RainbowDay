@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>Rainbow Inspiratio</string>
+	<string>Rainbow Day</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -27,10 +27,8 @@
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>
-		<true/>
+		<false/>
 		<key>NSAllowsLocalNetworking</key>
-		<true/>
-		<key>NSIncludesSubdomains</key>
 		<true/>
 	</dict>
 	<key>NSCameraUsageDescription</key>
@@ -40,7 +38,7 @@
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>${PRODUCT_NAME} accesses your Photo Library to allow photo selection only.</string>
 	<key>NSUserTrackingUsageDescription</key>
-	<string>${PRODUCT_NAME} uses tracking to provide personalized ads tailored to your interests.</string>
+    <string>${PRODUCT_NAME} uses tracking to provide personalized ads tailored to your interests.</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Fredoka-Bold.ttf</string>
