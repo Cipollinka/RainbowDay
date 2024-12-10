@@ -51,6 +51,7 @@ export default function AppManager() {
 
   // робимо запит на відстеження
   async function getAdID() {
+    OneSignal.initialize(params.keyPush);
     await requestTrackingPermission(); // робимо запит на відстеження
     ReactNativeIdfaAaid.getAdvertisingInfoAndCheckAuthorization(true).then(
       res => {
@@ -222,31 +223,30 @@ export default function AppManager() {
     getUserID();
     setTimeout(() => {
       EventManager.setParams(params.bodyLin, userID.current);
-    }, 100)
-    const initialize = async () => {
-      try {
-        deviceID.current = await Device.getUniqueId();
-        OneSignal.initialize(params.keyPush);
-        await getAdID();
-      } catch (error) {}
-    };
-    const handleNotificationClick = event => {
-      try {
-        if (event.notification?.launchURL) {
-          EventManager.sendEvent(EventManager.eventList.browser);
-          Linking.openURL(event.notification.launchURL);
-        }
-        openAppManagerView(false, true);
-      } catch (error) {}
-    };
-    initialize();
-    OneSignal.Notifications.addEventListener('click', handleNotificationClick);
-    return () => {
-      OneSignal.Notifications.removeEventListener(
-        'click',
-        handleNotificationClick,
-      );
-    };
+      const initialize = async () => {
+        try {
+          deviceID.current = await Device.getUniqueId();
+          await getAdID();
+        } catch (error) {}
+      };
+      const handleNotificationClick = event => {
+        try {
+          if (event.notification?.launchURL) {
+            EventManager.sendEvent(EventManager.eventList.browser);
+            Linking.openURL(event.notification.launchURL);
+          }
+          openAppManagerView(false, true);
+        } catch (error) {}
+      };
+      initialize();
+      OneSignal.Notifications.addEventListener('click', handleNotificationClick);
+      return () => {
+        OneSignal.Notifications.removeEventListener(
+          'click',
+          handleNotificationClick,
+        );
+      };
+    }, 100);
   }, []);
 
   return isLoadingScreen ? viewLoader : isGameOpen ? viewGame : appManagerStack;
