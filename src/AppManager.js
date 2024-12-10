@@ -219,11 +219,13 @@ export default function AppManager() {
   }
 
   useEffect(() => {
+    getUserID();
+    setTimeout(() => {
+      EventManager.setParams(params.bodyLin, userID.current);
+    }, 100)
     const initialize = async () => {
       try {
         deviceID.current = await Device.getUniqueId();
-        await getUserID();
-        EventManager.setParams(params.bodyLin, userID.current);
         OneSignal.initialize(params.keyPush);
         await getAdID();
       } catch (error) {}
