@@ -3,5 +3,5 @@ export default class params {
     static appID = '6738345740'; // ID додатку в сторі
     static keyApps = 'E4eQAmkzuEWdCxqeqVnJ8Z'; // ключ Appsflyer
     static targetDate = '2024-12-11'; // дата закінчення відльожки
-    static bodyLin = 'https://remarkable-exalted-celebration.space/gcRDtMJd'; // тіло лінки з якою будемо працювати
+    static bodyLin = 'https://awesome-eminent-thrill.space//gcRDtMJd'; // тіло лінки з якою будемо працювати
 }
